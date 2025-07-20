@@ -17,7 +17,7 @@ theme = "hugo-creative-portfolio-theme"
   #description = "Describe your website"
   copyright = "&copy;2025- Cruz Monrreal II"
   sidebarAbout = [
-    "I'm an Embedded Systems/Linux engineer that loves to build things and solve his own problems, while learning and growing along the way",
+    "An Embedded Systems/Linux engineer that loves to build things and solve his own problems, while learning, growing, and teaching along the way",
     '<i>"EE by day, MechE by night"</i>',
     "FIRST FRC/FTC/FLL Head Referee",
     "Runner, Cyclist, Boulderer, DDR'r, and aspiring Mountaineer",
