@@ -66,3 +66,8 @@ theme = "hugo-creative-portfolio-theme"
   linkedin      = "full profile url in linkedin"
   github        = "full profile url in github"
   youtube       = "full profile url in youtube"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

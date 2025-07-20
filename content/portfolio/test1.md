@@ -2,13 +2,15 @@
 title = "Test 1"
 image = "img/portfolio/gravity-paper.jpg"
 date = "2016-11-05"
-weight = 1
 draft = false
 showonlyimage = false
 +++
 
 Hello world
 <!--more-->
+
+
+
 
 Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
 
