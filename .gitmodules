@@ -1,3 +1,9 @@
 [submodule "themes/hugo-creative-portfolio-theme"]
 	path = themes/hugo-creative-portfolio-theme
 	url = https://github.com/kishaningithub/hugo-creative-portfolio-theme.git
+[submodule "airspace-hugo-theme"]
+	path = airspace-hugo-theme
+	url = git@github.com:cmonr/airspace-hugo-theme.git
+[submodule "themes/airspace"]
+	path = themes/airspace
+	url = git@github.com:cmonr/airspace-hugo-theme.git
