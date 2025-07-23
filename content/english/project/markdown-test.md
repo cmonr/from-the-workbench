@@ -1,10 +1,10 @@
 ---
 title: "Markdown Test"
 description: "Self test page"
-image: "image/portfolio/gravity-paper.jpg"
 date: "2025-07-19"
-draft: true
-
+image: "img/portfolio/sphero-arduino-bluetooth-controller.jpg"
+draft: false
+#bg-image:
 category: [ "Test" ]
 information:
   - label: "ABC"
