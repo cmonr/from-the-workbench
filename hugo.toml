@@ -1,0 +1,92 @@
+copyright = "© Cruz Monrreal II"
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy"]
+enableRobotsTXT = false
+languageCode = "en"
+timeZone = "America/Chicago"
+timeout = "120s"
+title = "From The Workbench"
+
+#theme = "gallery"
+theme = "gh.hugo-theme-gallery"
+enableEmoji = true
+
+
+[params]
+  defaultTheme = "light"
+  #description = "The best projects always start on a workbench"
+  #title = "My Gallery"
+  [params.author]
+    email = "cruz.monrreal@gmail.com"
+    name = "Cruz Monrreal II"
+  [params.socialIcons]
+    facebook = "https://www.facebook.com/"
+    instagram = "https://www.instagram.com/"
+    github = "https://github.com/cmonr/"
+    youtube = "https://www.youtube.com/"
+    email = "mailto:user@example.com"
+  [params.gallery]
+    #boxSpacing = 10
+    #targetRowHeight = 288
+    #targetRowHeightTolerance = 0.25
+
+[build]
+  publishResources = false
+
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+[imaging]
+  quality = 75
+  resampleFilter = "CatmullRom"
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = "ImageDescription|Orientation"
+
+[menu]
+  [[menu.footer]]
+    name = "GitHub"
+    url = "https://github.com/cmonr/"
+    weight = 3
+
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = 'monokailight'
+    tabWidth = 2
+    wrapperClass = 'highlight'
+
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      strikethrough = false
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+      [markup.goldmark.extensions.extras]
+        [markup.goldmark.extensions.extras.delete]
+          enable = true
+        [markup.goldmark.extensions.extras.insert]
+          enable = true
+        [markup.goldmark.extensions.extras.mark]
+          enable = true
+        [markup.goldmark.extensions.extras.subscript]
+          enable = true
+        [markup.goldmark.extensions.extras.superscript]
+          enable = true
+
+[security]
+  [security.funcs]
+    getenv = ['YOUTUBE_OAUTH_TOKEN']
