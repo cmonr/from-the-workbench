@@ -17,7 +17,7 @@ params:
     - yt | U82KZXlC-Ek 
 
 resources:
-  - src: package-emoji.png
+  - src: YiupCe-qaOI.thumbnail.jpg
     params:
       cover: true
 ---
