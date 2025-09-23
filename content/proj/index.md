@@ -18,7 +18,16 @@ resources:
 ---
 
 
-"{{< fa fab youtube 2x "style opacity:50%; color:red;" >}}"
+<style>
+.youtube-icon { opacity: 50%; color: black; }
+.youtube-icon:hover { opacity: 100; color: red; transition: color 1s, opacity 1s; }
+</style>
+
+{{< fa fab youtube 2x "style opacity:50%;" >}}
+
+{{< fa fab youtube 2x "style color:red;" >}}
+
+{{< fa fab youtube 4x "class youtube-icon" >}}
 
 
 ### State?
