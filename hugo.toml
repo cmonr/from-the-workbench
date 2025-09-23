@@ -1,4 +1,4 @@
-baseURL="http://localhost/"
+baseURL="https://cmonr.github.io/"
 copyright = "© Cruz Monrreal II"
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy"]
@@ -8,8 +8,8 @@ timeZone = "America/Chicago"
 timeout = "120s"
 title = "From The Workbench"
 
-#theme = "gallery"
-theme = "gh.hugo-theme-gallery"
+theme = "gallery"
+#theme = "gh.hugo-theme-gallery"
 enableEmoji = true
 
 
