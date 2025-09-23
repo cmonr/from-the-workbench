@@ -17,6 +17,10 @@ resources:
       cover: true
 ---
 
+
+"{{< fa fab youtube 2x "style opacity:50%; color:red;" >}}"
+
+
 ### State?
 #### Where's it at now?
 

@@ -1,3 +1,4 @@
+baseURL="http://localhost/"
 copyright = "© Cruz Monrreal II"
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy"]
@@ -69,6 +70,7 @@ enableEmoji = true
     tabWidth = 2
     wrapperClass = 'highlight'
 
+  [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
     [markup.goldmark.extensions]
