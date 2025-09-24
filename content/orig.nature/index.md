@@ -7,6 +7,8 @@ description: Through photography, the beauty of Mother Nature can be frozen in t
 categories: ["nature"]
 weight: 9999
 
+private: true
+
 params:
   featured_image: azzedine-rouichi-ZS_XuDZmxpM-unsplash.jpg
   theme: dark

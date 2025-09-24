@@ -1,5 +1,5 @@
 ---
-title: "uBristleBot [done]"
+title: "uBristleBot Robot"
 date: 2016-04-11
 author: Cruz Monrreal II
 description: "Originally built for hackaday's square inch challenge, and to try a new type of bluetooth module"

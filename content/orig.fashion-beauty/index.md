@@ -7,6 +7,8 @@ description: Fashion and Beauty are a powerful form of self-expression. This cat
 categories: ["abc", "123" ]
 weight: 9998
 
+private: true
+
 resources:
   - src: mina-rad-V94CguEmeos-unsplash.jpg
     params:
