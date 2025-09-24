@@ -1,4 +1,4 @@
-baseURL="https://cmonr.github.io/"
+baseURL="https://localhost:1313"
 copyright = "© Cruz Monrreal II"
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy"]
@@ -10,6 +10,7 @@ title = "From The Workbench"
 
 theme = "gallery"
 #theme = "gh.hugo-theme-gallery"
+
 enableEmoji = true
 
 
